@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Kross - Creative Portfolio Template</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Creative Portfolio Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Kross Template v1.0">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="kross" />
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url(images/backgrounds/layered-peaks-haikei.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: top;
+      color: white;
+    }
+    .text-header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      color: rgb(242, 242, 242);
+      font-family:"Playfair Display", serif;
+      word-spacing: 3px;
+      font-size: 44px;
+      transition: 500ms;
+    }
+    .text-header:hover{
+      color: #ffffff;
+      text-shadow: 2px 2px 3px #000000;
+      transform:translateY(-1px)
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .card {
+      width: 100rem;
+      height: 20rem;
+    }
+    .btn-allow,
+    .btn-deny {
+      background-color: white;
+      color: #41228e;
+    }
+    .btn-allow:hover,
+    .btn-deny:hover {
+      color: white;
+      background-color: #41228e;
+    }
+    .btn-allow:active,
+    .btn-deny:active{
+      color: rgb(255, 255, 255);
+      background-color: #291658;
+    }
+    .btn-allow{
+      position: relative;
+      top: 100px;
+    }
+    .btn-deny{
+      position: relative;
+      top: 100px;
+    }
+    .font{
+      font-family:"Playfair Display", serif;;
+      font-weight: 100;
+      word-spacing: 3px;
+    }
+    .text-shadow{
+      text-shadow: 0 0 2px rgba(0, 0, 0, 0.284);
+    }
+  </style>
+</head>
+<body>
+  <p class="text-header">Face Detection</p>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-shadow">Permission to Use Camera</h5>
+        <p class="text-dark font">
+          We need your permission to use your camera to capture images and
+          video. If don't allow us to use your camera, feel free to click 
+          on the 'don't allow' button.
+        </p>
+        <div class="d-flex justify-content-between">
+          <a href="facerecognition.html" class="btn btn-allow">Allow</a>
+          <a class="btn btn-deny ml-auto">Don't Allow</a>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+    
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
